@@ -608,3 +608,75 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+.form-teg {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+
+.form-list .lst {
+  padding-left: 41px;
+}
+
+.form-label {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.form-input {
+  margin-bottom: 10px;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.comment {
+  margin-bottom: 4px;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.comment-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.policy-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.form-checkbox {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  align-items: center;
+  color: #757575;
+}
+.policy-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.submit-button {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+}
+.policy-link {
+  color: var(--accent-color);
+}

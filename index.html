@@ -410,6 +410,42 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form>
+          <h2 class="form-teg">Залиште свої дані, ми вам передзвонимо</h2>
+          <ul class="form-list">
+            <li class="lst">
+              <label class="form-label" for="name">Імя</label>
+              <p><input class="form-input" type="text" name="name" id="name" /></p>
+            </li>
+            <li class="lst">
+              <label class="form-label" for="tel">Телефон</label>
+              <p><input class="form-input" type="tel" name="tel" id="tel" /></p>
+            </li>
+            <li class="lst">
+              <label class="form-label" for="mail">Пошта</label>
+              <p><input class="form-input" type="email" name="mail" id="mail" /></p>
+            </li>
+            <li class="lst">
+              <label class="comment-label form-label" for="comment">Комментарій</label>
+              <p class="comment-text">
+                <textarea
+                  class="comment"
+                  name="comment"
+                  id="comment"
+                  rows="9"
+                  placeholder="Введіть текст"
+                ></textarea>
+              </p>
+            </li>
+          </ul>
+          <div class="policy-button">
+            <label class="policy-label" for="policy">
+              <input class="form-checkbox" type="checkbox" name="policy" id="policy" />
+              Погоджуюся з розсилкою та приймаю <a class="policy-link" href="">Умови договору</a>
+            </label>
+            <button class="hero-button submit-button" type="submit">Відправити</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
