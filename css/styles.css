@@ -564,6 +564,33 @@ ul {
   background-color: var(--accent-color);
   border-radius: 3px;
 }
+/* subscribe */
+.subscribe-flex {
+  margin-left: 93px;
+}
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-button {
+  position: relative;
+  margin-left: 12px;
+}
+.footer-subscribe {
+  margin: 13px;
+}
 /* modal */
 .backdrop {
   position: fixed;
@@ -676,6 +703,11 @@ ul {
   width: 200px;
   height: 50px;
   margin-top: 30px;
+}
+.submit-button:hover,
+.submit-button:focus {
+  background-color: brown;
+  color: white;
 }
 .policy-link {
   color: var(--accent-color);
