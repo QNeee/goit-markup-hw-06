@@ -575,6 +575,18 @@ ul {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  color: white;
+  padding-left: 16px;
+}
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .text {
   font-weight: 400;
@@ -588,8 +600,18 @@ ul {
   position: relative;
   margin-left: 12px;
 }
+
+.footer-svg {
+  position: absolute;
+  top: 100;
+  left: 100;
+  margin-left: 10px;
+}
 .footer-subscribe {
-  margin: 13px;
+  fill: white;
+}
+.footer-button:hover .footer-subscribe {
+  fill: var(--accent-color);
 }
 /* modal */
 .backdrop {
@@ -695,6 +717,7 @@ ul {
   align-items: center;
   color: #757575;
 }
+
 .policy-button {
   text-align: center;
   margin-top: 20px;
