@@ -707,29 +707,32 @@ ul {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .name-icon {
+  margin-left: 5px;
   position: absolute;
   top: 105px;
   left: 50px;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
 }
 .phone-icon {
+  margin-left: 5px;
   position: absolute;
   left: 50px;
-  top: 175px;
-  width: 13px;
-  height: 12px;
+  top: 172px;
+  width: 18px;
+  height: 18px;
 }
 .mail-icon {
+  margin-left: 5px;
   position: absolute;
   left: 50px;
-  top: 243px;
-  width: 15px;
-  height: 12px;
+  top: 240px;
+  width: 18px;
+  height: 18px;
 }
 .form-input:hover,
 .form-input:focus {
@@ -746,7 +749,9 @@ ul {
 }
 
 .comment {
-  margin-bottom: 4px;
+  padding-top: 12px;
+  padding-left: 16px;
+  margin-top: 4px;
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -759,6 +764,11 @@ ul {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+.comment:hover,
+.comment:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
 .policy-label {
   font-weight: 400;
   font-size: 14px;
@@ -767,6 +777,7 @@ ul {
   color: #757575;
 }
 .form-checkbox {
+  appearance: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -774,11 +785,33 @@ ul {
   align-items: center;
   color: #757575;
 }
-
+.icon-check {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  margin-right: 7px;
+  align-items: center;
+}
+.form-checkbox:checked + .icon-check {
+  background-image: url(../images/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--accent-color);
+  background-origin: border-box;
+  border-color: var(--accent-color);
+  color: white;
+}
 .policy-button {
   text-align: center;
   margin-top: 20px;
 }
+.policy-icon {
+  width: 16px;
+  height: 15px;
+}
+
 .submit-button {
   width: 200px;
   height: 50px;
@@ -791,4 +824,7 @@ ul {
 }
 .policy-link {
   color: var(--accent-color);
+}
+textarea {
+  resize: none;
 }
