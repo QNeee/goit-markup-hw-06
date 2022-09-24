@@ -287,27 +287,20 @@
           </div>
           <div class="subscribe-flex">
             <p class="social-text">Підпишіться на розсилку</p>
-            <ul class="footer-icons">
-              <li class="lst">
-                <p class="text">
-                  <input
-                    class="footer-input"
-                    type="email"
-                    name="mail"
-                    id="mail-footer"
-                    placeholder="E-mail"
-                  />
-                </p>
-              </li>
-              <li class="lst">
-                <button class="hero-button footer-button">
-                  <span class="footer-button-text">Підписатися</span>
-                  <svg class="footer-svg" width="24" height="24">
-                    <use class="footer-subscribe" href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
+            <label class="footer-submit-label" for="submit-mail"></label>
+            <input
+              class="footer-input"
+              type="email"
+              name="submit-mail"
+              id="submit-mail"
+              placeholder="E-mail"
+            />
+            <button class="footer-submit-btn" type="submit">
+              Підписатися
+              <svg class="footer-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
