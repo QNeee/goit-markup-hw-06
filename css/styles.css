@@ -109,6 +109,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text);
+  transition: color var(--wait) var(--caubic);
 }
 .link:hover,
 .link:focus,
@@ -194,6 +195,7 @@ ul {
   background-color: var(--accent-color);
   color: var(--filter-secondarycolor);
   cursor: pointer;
+  transition: color var(--wait) var(--caubic);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -251,6 +253,27 @@ ul {
 }
 .work-section {
   padding-bottom: 94px;
+}
+.work-titles .lst {
+  position: relative;
+}
+.work-titles__description {
+  position: absolute;
+  left: 0;
+  top: 225px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px;
+}
+.work-titles__description-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /* team */
 .team {
@@ -314,6 +337,7 @@ ul {
   display: block;
   border-radius: 50%;
   color: #afb1b8;
+  transition: color var(--wait) var(--caubic);
 }
 .social-link:hover,
 .social-link:focus {
@@ -357,6 +381,7 @@ ul {
   color: #afb1b8;
   background-color: #fff;
   padding: 16px 32px;
+  transition: color var(--wait) var(--caubic);
 }
 .client-lst:not(:last-child) {
   margin-right: 30px;
@@ -386,6 +411,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  transition: color var(--wait) var(--caubic);
 }
 .btns:hover,
 .btns:focus {
@@ -454,6 +480,7 @@ ul {
 }
 .projects .lst {
   margin-bottom: 30px;
+  transition: color var(--wait) var(--caubic);
 }
 
 .projects .lst:nth-child(3n + 3) {
@@ -719,6 +746,7 @@ ul {
   left: 50px;
   width: 18px;
   height: 18px;
+  transition: color var(--wait) var(--caubic);
 }
 .phone-icon {
   margin-left: 5px;
@@ -727,6 +755,7 @@ ul {
   top: 172px;
   width: 18px;
   height: 18px;
+  transition: color var(--wait) var(--caubic);
 }
 .mail-icon {
   margin-left: 5px;
@@ -735,6 +764,7 @@ ul {
   top: 240px;
   width: 18px;
   height: 18px;
+  transition: color var(--wait) var(--caubic);
 }
 .form-input:hover,
 .form-input:focus {
@@ -758,6 +788,7 @@ ul {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: color var(--wait) var(--caubic);
 }
 .comment-text {
   font-weight: 400;
@@ -765,6 +796,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  transition: color var(--wait) var(--caubic);
 }
 .comment:hover,
 .comment:focus {
@@ -821,6 +853,7 @@ ul {
   width: 200px;
   height: 50px;
   margin-top: 30px;
+  transition: color var(--wait) var(--caubic);
 }
 .submit-button:hover,
 .submit-button:focus {
