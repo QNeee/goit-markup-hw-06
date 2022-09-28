@@ -358,7 +358,7 @@ ul {
   display: block;
   border-radius: 50%;
   color: #afb1b8;
-  transition: color var(--wait) var(--caubic);
+  transition: background-color var(--wait) var(--caubic), color var(--wait) var(--caubic);
 }
 .social-link:hover,
 .social-link:focus {
@@ -567,6 +567,7 @@ ul {
 .footer-link {
   color: #ffffff;
   background-color: #ffffff10;
+  transition: background-color var(--wait) var(--caubic), color var(--wait) var(--caubic);
 }
 .social-text {
   padding: 20px 0px 10px 0px;
