@@ -275,6 +275,27 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+.work-titles .lst {
+  position: relative;
+}
+.work-titles__description {
+  position: absolute;
+  left: 0;
+  top: 225px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px;
+}
+.work-titles__description-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 /* team */
 .team {
   padding-top: 94px;
@@ -746,7 +767,7 @@ ul {
   left: 50px;
   width: 18px;
   height: 18px;
-  transition: color var(--wait) var(--caubic);
+  transition: fill var(--wait) var(--caubic);
 }
 .phone-icon {
   margin-left: 5px;
@@ -755,7 +776,7 @@ ul {
   top: 172px;
   width: 18px;
   height: 18px;
-  transition: color var(--wait) var(--caubic);
+  transition: fill var(--wait) var(--caubic);
 }
 .mail-icon {
   margin-left: 5px;
@@ -764,7 +785,7 @@ ul {
   top: 240px;
   width: 18px;
   height: 18px;
-  transition: color var(--wait) var(--caubic);
+  transition: fill var(--wait) var(--caubic);
 }
 .form-input:hover,
 .form-input:focus {
@@ -788,7 +809,6 @@ ul {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: color var(--wait) var(--caubic);
 }
 .comment-text {
   font-weight: 400;
@@ -796,7 +816,6 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  transition: color var(--wait) var(--caubic);
 }
 .comment:hover,
 .comment:focus {
