@@ -652,7 +652,6 @@ ul {
 
   border: none;
   border-radius: 4px;
-
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--filter-secondarycolor);
@@ -669,6 +668,25 @@ ul {
   height: 50px;
   margin-left: 12px;
   padding-left: 28px;
+  transition: color var(--wait) var(--caubic);
+}
+.footer-submit-btn:hover,
+.footer-submit-btn:focus {
+  background-color: #188ce8;
+  color: white;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .footer-icon {
   width: 24px;
@@ -726,6 +744,11 @@ ul {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  transition: fill var(--wait) var(--caubic);
+}
+.close-btn:hover,
+.close-btn:focus {
+  fill: var(--accent-color);
 }
 .form-teg {
   font-weight: 700;
@@ -733,15 +756,13 @@ ul {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-
-  padding-top: 40px;
-  padding-bottom: 12px;
 }
-
-.form-list .lst {
-  padding-left: 41px;
+.form {
+  padding: 40px;
 }
-
+.form-list {
+  margin-top: 12px;
+}
 .form-label {
   margin-top: 4px;
   font-weight: 400;
@@ -759,6 +780,7 @@ ul {
   border-radius: 4px;
   padding-left: 40px;
   cursor: pointer;
+  transition: color var(--wait) var(--caubic), border var(--wait) var(--caubic);
 }
 
 .name-icon {
@@ -810,6 +832,7 @@ ul {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: color var(--wait) var(--caubic), border var(--wait) var(--caubic);
 }
 .comment-text {
   font-weight: 400;
@@ -824,7 +847,7 @@ ul {
   border-color: var(--accent-color);
 }
 .policy-label {
-  display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-weight: 400;
@@ -849,7 +872,6 @@ ul {
   border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 7px;
-  align-items: center;
 }
 .form-checkbox:checked + .icon-check {
   background-image: url(../images/check.svg);
@@ -882,6 +904,11 @@ ul {
 }
 .policy-link {
   margin-left: 4px;
+  color: var(--accent-color);
+  transition: color var(--wait) var(--caubic);
+}
+.policy-link:hover,
+.policy-link:focus {
   color: var(--accent-color);
 }
 textarea {
