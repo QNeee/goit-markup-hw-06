@@ -432,7 +432,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  transition: color var(--wait) var(--caubic);
+  transition: color var(--wait) var(--caubic), box-shadow var(--wait) var(--caubic);
 }
 .btns:hover,
 .btns:focus {
@@ -501,7 +501,7 @@ ul {
 }
 .projects .lst {
   margin-bottom: 30px;
-  transition: color var(--wait) var(--caubic);
+  transition: color var(--wait) var(--caubic), box-shadow var(--wait) var(--caubic);
 }
 
 .projects .lst:nth-child(3n + 3) {
