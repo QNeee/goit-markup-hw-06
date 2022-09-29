@@ -832,6 +832,12 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: color var(--wait) var(--caubic), border var(--wait) var(--caubic);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117);
+  resize: none;
 }
 .comment-text {
   font-weight: 400;
@@ -844,6 +850,9 @@ ul {
 .comment:focus {
   outline: none;
   border-color: var(--accent-color);
+}
+.comment::placeholder {
+  opacity: 0.4;
 }
 
 .policy-label {
@@ -911,12 +920,4 @@ ul {
 .policy-link:hover,
 .policy-link:focus {
   color: var(--primary-text);
-}
-textarea {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.67;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-  resize: none;
 }
