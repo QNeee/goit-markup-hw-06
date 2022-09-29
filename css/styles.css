@@ -839,19 +839,13 @@ ul {
   color: rgba(117, 117, 117);
   resize: none;
 }
-.comment-text {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
+
 .comment:hover,
 .comment:focus {
   outline: none;
   border-color: var(--accent-color);
 }
-.comment::placeholder {
+textarea::placeholder {
   opacity: 0.4;
 }
 
