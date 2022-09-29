@@ -848,8 +848,6 @@ ul {
 }
 .policy-label {
   text-align: center;
-  align-items: center;
-  justify-content: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -866,6 +864,8 @@ ul {
   color: #757575;
 }
 .icon-check {
+  position: relative;
+  top: 2px;
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -884,6 +884,7 @@ ul {
 }
 .policy-button {
   text-align: center;
+  align-items: center;
   margin-top: 20px;
 }
 .policy-icon {
@@ -909,7 +910,7 @@ ul {
 }
 .policy-link:hover,
 .policy-link:focus {
-  color: var(--accent-color);
+  color: blue;
 }
 textarea {
   resize: none;
