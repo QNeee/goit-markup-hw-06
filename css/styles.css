@@ -845,13 +845,7 @@ ul {
   outline: none;
   border-color: var(--accent-color);
 }
-.comment::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.67;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
+
 .policy-label {
   text-align: center;
   font-weight: 400;
@@ -919,5 +913,10 @@ ul {
   color: var(--primary-text);
 }
 textarea {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
   resize: none;
 }
